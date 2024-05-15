@@ -1,16 +1,33 @@
-# lask_mobile_news_app
+# Lask Mobile News App
 
-A new Flutter project.
+The design for this project was inspired by the amazing work found in the community Figma UI kit. A big thank you to the Figma community for the inspiration!
 
-## Getting Started
+### Figma UI Kit
 
-This project is a starting point for a Flutter application.
+[Lask Mobile News App UI Kit](https://www.figma.com/community/file/1232628422702380922/lask-mobile-news-app-ui-kit) by [Trung Le](https://www.figma.com/@lehoaitrungds)
 
-A few resources to get you started if this is your first Flutter project:
+### API
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[News API](https://newsapi.org/docs) (Free Developer Version) is used for this project.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Used Technologies
+
+- Dart
+- Flutter
+- Bloc (State Management)
+- Hydrated Bloc (Persistent Storage)
+- Shared Preferences (Persistent Storage)
+- Http (Networking)
+- Go Router (Routing)
+- Bloc Architecture Pattern
+
+### Preview Images
+
+![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
+
+![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
+
+![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
+
+### Demo Video Link
+
