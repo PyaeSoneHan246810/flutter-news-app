@@ -219,15 +219,19 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                 // if there is some bookmarks added
                                 if (state is BookmarksLoaded) {
                                   final bookmarks = state.bookmarks;
+                                  final isAlreadyBookmarked = bookmarks.any(
+                                    (element) =>
+                                        element.urlToImage ==
+                                        widget.article.urlToImage,
+                                  );
                                   return ActionIconButton(
-                                    iconData:
-                                        (!bookmarks.contains(widget.article))
-                                            ? MaterialSymbols.bookmark_outlined
-                                            : MaterialSymbols.bookmark_filled,
+                                    iconData: (!isAlreadyBookmarked)
+                                        ? MaterialSymbols.bookmark_outlined
+                                        : MaterialSymbols.bookmark_filled,
                                     size: 24,
                                     onPressed: () {
                                       //bookmark new article or remove one
-                                      if (!bookmarks.contains(widget.article)) {
+                                      if (!isAlreadyBookmarked) {
                                         bookmarksHydratedBloc
                                             .add(BookmarkAdded(widget.article));
                                       } else {
