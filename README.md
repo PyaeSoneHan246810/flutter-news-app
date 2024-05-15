@@ -23,9 +23,9 @@ The design for this project was inspired by the amazing work found in the commun
 
 ### Preview Images
 
-![photo_2024-05-15_23-25-41](https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/1c07d955-5e45-4be7-866a-367fbccdfcf3)
+![photo_2024-05-15_23-25-41](https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/1c07d955-5e45-4be7-866a-367fbccdfcf3) ![photo_2024-05-15_23-25-41 (2)](https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/e0291286-2d06-42a3-ae1b-1e3dda6c1d79)
 
-![photo_2024-05-15_23-25-41 (2)](https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/e0291286-2d06-42a3-ae1b-1e3dda6c1d79)
+
 
 ![photo_2024-05-15_23-25-41 (3)](https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/d61f5a8d-13e2-48d1-9fb9-5f6742395e54)
 
