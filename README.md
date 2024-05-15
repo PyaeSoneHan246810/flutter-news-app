@@ -25,9 +25,5 @@ The design for this project was inspired by the amazing work found in the commun
 
 ![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
 
-![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
-
-![App Screenshot](https://as1.ftcdn.net/v2/jpg/02/64/03/62/1000_F_264036246_WlvDBMmOspcf4l5oWzyPUleYOUFKACAX.jpg)
-
 ### Demo Video Link
 
