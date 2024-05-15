@@ -4,7 +4,7 @@ The design for this project was inspired by the amazing work found in the commun
 
 ### Figma UI Kit
 
-[Lask Mobile News App UI Kit](hhttps://www.figma.com/community/file/1232628422702380922/lask-mobile-news-app-ui-kit) by [Trung Le](https://www.figma.com/@lehoaitrungds)
+[Lask Mobile News App UI Kit](https://www.figma.com/community/file/1232628422702380922/lask-mobile-news-app-ui-kit) by [Trung Le](https://www.figma.com/@lehoaitrungds)
 
 ### API
 
