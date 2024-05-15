@@ -12,8 +12,6 @@ The design for this project was inspired by the amazing work found in the commun
 
 ### Used Technologies
 
-The following technologies are used for this project.
-
 - Dart
 - Flutter
 - Bloc (State Management)
