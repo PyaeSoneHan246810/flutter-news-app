@@ -10,6 +10,7 @@ enum BookmarksStatus {
 class BookmarksState extends Equatable {
   final List<Article> bookmarks;
   final BookmarksStatus status;
+
   const BookmarksState({
     this.bookmarks = const <Article>[],
     this.status = BookmarksStatus.initial,
@@ -25,7 +26,6 @@ class BookmarksState extends Equatable {
     );
   }
 
-  @override
   factory BookmarksState.fromJson(Map<String, dynamic> json) {
     try {
       final bookmarks = (json['bookmarks'] as List<dynamic>)

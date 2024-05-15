@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import '../../data/network/weather_data_provider.dart';
 import '../model/weather.dart';
 

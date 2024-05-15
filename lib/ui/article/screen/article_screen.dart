@@ -209,7 +209,6 @@ class _ArticleScreenState extends State<ArticleScreen> {
                               iconData: MaterialSymbols.arrow_back_outlined,
                               size: 24,
                               onPressed: () {
-                                // navigate back
                                 context.pop();
                               },
                             ),
@@ -243,7 +242,6 @@ class _ArticleScreenState extends State<ArticleScreen> {
                               iconData: MaterialSymbols.share_outlined,
                               size: 24,
                               onPressed: () {
-                                // share article
                                 Share.share(
                                   "Hey! Check out this article from ${widget.article.source.name} here: ${widget.article.url}",
                                 );
@@ -310,7 +308,6 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                               onPressed: () {
                                                 // view article in web browser
                                                 _launchUrl(widget.article.url);
-                                                // close dialog
                                                 Navigator.pop(context);
                                               },
                                             ),
@@ -327,7 +324,6 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                                     "url": widget.article.url,
                                                   },
                                                 );
-                                                // close dialog
                                                 Navigator.pop(context);
                                               },
                                             ),

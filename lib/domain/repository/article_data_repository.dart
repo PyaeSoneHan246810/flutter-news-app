@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import '../../utils/constants.dart';
 import '../../data/network/article_data_provider.dart';
 import '../../utils/secrets.dart';
