@@ -216,39 +216,25 @@ class _ArticleScreenState extends State<ArticleScreen> {
                             const Spacer(),
                             BlocBuilder<BookmarksHydratedBloc, BookmarksState>(
                               builder: (context, state) {
-                                // if there is some bookmarks added
-                                if (state is BookmarksLoaded) {
-                                  final bookmarks = state.bookmarks;
-                                  final isAlreadyBookmarked = bookmarks.any(
-                                    (element) =>
-                                        element.urlToImage ==
-                                        widget.article.urlToImage,
-                                  );
-                                  return ActionIconButton(
-                                    iconData: (!isAlreadyBookmarked)
-                                        ? MaterialSymbols.bookmark_outlined
-                                        : MaterialSymbols.bookmark_filled,
-                                    size: 24,
-                                    onPressed: () {
-                                      //bookmark new article or remove one
-                                      if (!isAlreadyBookmarked) {
-                                        bookmarksHydratedBloc
-                                            .add(BookmarkAdded(widget.article));
-                                      } else {
-                                        bookmarksHydratedBloc.add(
-                                            BookmarkRemoved(widget.article));
-                                      }
-                                    },
-                                  );
-                                }
-                                // if there is no single bookmark
+                                final bookmarks = state.bookmarks;
+                                final isAlreadyBookmarked = bookmarks.any(
+                                  (element) =>
+                                      element.urlToImage ==
+                                      widget.article.urlToImage,
+                                );
                                 return ActionIconButton(
-                                  iconData: MaterialSymbols.bookmark_outlined,
+                                  iconData: (!isAlreadyBookmarked)
+                                      ? MaterialSymbols.bookmark_outlined
+                                      : MaterialSymbols.bookmark_filled,
                                   size: 24,
                                   onPressed: () {
-                                    //bookmark article
-                                    bookmarksHydratedBloc
-                                        .add(BookmarkAdded(widget.article));
+                                    if (!isAlreadyBookmarked) {
+                                      bookmarksHydratedBloc
+                                          .add(BookmarkAdded(widget.article));
+                                    } else {
+                                      bookmarksHydratedBloc
+                                          .add(BookmarkRemoved(widget.article));
+                                    }
                                   },
                                 );
                               },

@@ -40,6 +40,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
             .add(NavigationVisibilityChanged(isVisible: false));
       }
     });
+    context.read<BookmarksHydratedBloc>().add(BookmarkFetched());
   }
 
   @override
@@ -60,7 +61,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 28),
                 child: BlocBuilder<BookmarksHydratedBloc, BookmarksState>(
                   builder: (context, state) {
-                    if (state is BookmarksLoaded) {
+                    if (state.status == BookmarksStatus.success) {
                       final bookmarks = state.bookmarks;
                       return bookmarks.isEmpty
                           ? const EmptyBookmarkWidget()

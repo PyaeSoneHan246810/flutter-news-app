@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../data/network/weather_data_provider.dart';
 import '../../domain/repository/weather_repository.dart';
 import '../home/bloc/current_weather_bloc.dart';
-import '../../domain/repository/bookmarks_repository.dart';
 import '../bookmark/bloc/bookmarks_hydrated_bloc.dart';
 import '../../data/network/article_data_provider.dart';
 import '../../domain/repository/article_data_repository.dart';
@@ -29,9 +28,6 @@ class MainMaterialApp extends StatelessWidget {
       providers: [
         RepositoryProvider(
           create: (context) => ArticleDataRepository(ArticleDataProvider()),
-        ),
-        RepositoryProvider(
-          create: (context) => BookmarksRepository(),
         ),
         RepositoryProvider(
           create: (context) => WeatherDataRepository(WeatherDataProvider()),
@@ -78,12 +74,11 @@ class MainMaterialApp extends StatelessWidget {
           ),
           BlocProvider(
             create: (context) =>
-                BookmarksHydratedBloc(context.read<BookmarksRepository>()),
+                CurrentWeatherBloc(context.read<WeatherDataRepository>()),
           ),
           BlocProvider(
-            create: (context) =>
-                CurrentWeatherBloc(context.read<WeatherDataRepository>()),
-          )
+            create: (context) => BookmarksHydratedBloc(),
+          ),
         ],
         child: BlocBuilder<CurrentThemeBloc, CurrentThemeState>(
           builder: (context, currentThemeState) {

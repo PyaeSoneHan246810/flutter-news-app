@@ -1,16 +1,26 @@
 part of 'bookmarks_hydrated_bloc.dart';
 
-@immutable
-sealed class BookmarksEvent {}
+abstract class BookmarkEvent extends Equatable {
+  const BookmarkEvent();
 
-final class BookmarksFetched extends BookmarksEvent {}
-
-final class BookmarkAdded extends BookmarksEvent {
-  final Article article;
-  BookmarkAdded(this.article);
+  @override
+  List<Object?> get props => [];
 }
 
-final class BookmarkRemoved extends BookmarksEvent {
+class BookmarkFetched extends BookmarkEvent {}
+
+class BookmarkAdded extends BookmarkEvent {
   final Article article;
-  BookmarkRemoved(this.article);
+  const BookmarkAdded(this.article);
+
+  @override
+  List<Object?> get props => [article];
+}
+
+class BookmarkRemoved extends BookmarkEvent {
+  final Article article;
+  const BookmarkRemoved(this.article);
+
+  @override
+  List<Object?> get props => [article];
 }
