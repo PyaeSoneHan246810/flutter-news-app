@@ -1,6 +1,6 @@
 # Lask Mobile News App
 
-The design for this project was inspired by the amazing work found in the community Figma UI kit. A big thank you to the Figma community for the inspiration!
+The design for this project was inspired by the amazing work found in the community Figma UI kit.
 
 ### Figma UI Kit
 
