@@ -23,7 +23,7 @@ The design for this project was inspired by the amazing work found in the commun
 
 ### Preview Images
 <p align="left"> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/file/d/1XzNj7_8rRupIY3zRqYFTSHFCJdYvVySG/view?usp=sharing" alt="java" width="60"/> </a> 
+  <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/ae55b912-747c-4769-9c58-b062554c1fc4" alt="java" width="160"/>
 </p>
 
 ### Demo Video Link
