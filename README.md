@@ -22,6 +22,8 @@ The design for this project was inspired by the amazing work found in the commun
 - Bloc Architecture Pattern
 
 ### Preview Images
+
+#### Light Theme
 <p align="left">
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/3ad917b3-f49d-460b-8f8c-b19feaf9817a" alt="" width="160" href="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/3ad917b3-f49d-460b-8f8c-b19feaf9817a"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/aa545163-7ec4-4da6-bfa9-1befc87d9cd5" alt="" width="160" href="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/3ad917b3-f49d-460b-8f8c-b19feaf9817a"/>
@@ -42,6 +44,7 @@ The design for this project was inspired by the amazing work found in the commun
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/12756461-d03b-4568-85bb-40e2727dd310" alt="" width="160" href="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/f7d54fb8-f58f-443c-bf42-cbee96b11217"/> 
 </p>
 
+#### Dark Theme
 <p>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/1daba24d-edc4-45eb-9de4-986180e2a050" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/2ef19def-0e39-459f-a3e5-38026b3748ad" alt="" width="160"/>
@@ -52,7 +55,7 @@ The design for this project was inspired by the amazing work found in the commun
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/46d4abcc-e4b1-42e2-a2ef-32521149c649" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/299d7988-b63a-4b9e-8b52-57fbe3139839" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/17707068-eb5d-468c-9113-47ae95579a98" alt="" width="160"/>
-  
+  <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/a91691c8-4e92-4929-b607-e93814eef9de" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/7658fb13-7129-426d-ba24-526d1870995a" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/50d80b45-3ea0-4645-aa6d-658aea434220" alt="" width="160"/>
   <img src="https://github.com/PyaeSoneHan246810/flutter_lask_mobile_news_app/assets/106380166/86807528-6e6e-4ea2-9fa0-80349591807f" alt="" width="160"/>
